@@ -1,3 +1,12 @@
 <!-- font-family: 'Merriweather', serif;
 font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; -->
+font-family: 'Roboto', sans-serif; --> 
+
+:root{
+    --background-color:#4D4E4F;
+    --secondary-color:#CCCED2;
+    --popOf-color:#C49D93;
+    --accent-color: #DCC0AA;
+    --offWhite-color:#F7F7F7;
+    
+}
