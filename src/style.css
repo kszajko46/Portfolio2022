@@ -1,7 +1,7 @@
 :root {
   --main-color: #4d4e4f;
   --secondary-color: #ccced2;
-  --popOf-color: #c49d93;
+  --popOf-color: #d9b9b2;
   --accent-color: #dcc0aa;
   --offWhite-color: #f7f7f7;
   --main-font: "Poppins", sans-serif;
@@ -10,15 +10,41 @@
 
 body {
   background-color: var(--main-color);
+  font-family: var(--main-font);
 }
 
-h1,
-h2,
-h3 {
+.hero {
+  background-color: var(--popOf-color);
   text-align: center;
+  color: var(--main-color);
+  padding: 160px 20px;
+}
+
+.hero p {
+  text-align: left;
+  margin: 0;
+  font-size: 40px;
+}
+
+.hero h1 {
+  font-family: "Trochut", cursive;
+  line-height: 2;
+  font-size: 95px;
+  margin: 0;
   color: var(--offWhite-color);
 }
 
-h1 {
-  font-family: var(--accent-font);
+.hero h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-branding {
+  background: var(--main-color);
+  border-radius: 4px;
+  color: var(--offWhite-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 25px;
+  margin: 40px;
 }
