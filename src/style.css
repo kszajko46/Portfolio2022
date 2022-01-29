@@ -4,13 +4,21 @@
   --popOf-color: #c49d93;
   --accent-color: #dcc0aa;
   --offWhite-color: #f7f7f7;
+  --main-font: "Poppins", sans-serif;
+  --accent-font: "Merriweather", serif;
 }
 
 body {
   background-color: var(--main-color);
 }
 
-h1 {
+h1,
+h2,
+h3 {
   text-align: center;
-  color: var(--popOf-color);
+  color: var(--offWhite-color);
+}
+
+h1 {
+  font-family: var(--accent-font);
 }
