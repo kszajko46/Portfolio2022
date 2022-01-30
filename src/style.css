@@ -11,6 +11,7 @@
 body {
   background-color: var(--main-color);
   font-family: var(--main-font);
+  color: var(--offWhite-color);
 }
 
 .hero {
@@ -47,4 +48,10 @@ body {
   line-height: 27px;
   padding: 10px 25px;
   margin: 40px;
+}
+
+.openingLine {
+  text-align: center;
+  margin: 35px;
+  padding: 150px;
 }
