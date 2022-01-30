@@ -27,7 +27,7 @@ body {
 }
 
 .hero h1 {
-  font-family: "Trochut", cursive;
+  font-family: "Neonderthaw", cursive;
   line-height: 2;
   font-size: 95px;
   margin: 0;
@@ -41,7 +41,7 @@ body {
 
 .btn-branding {
   background: var(--main-color);
-  border-radius: 4px;
+  border-radius: 10px;
   color: var(--offWhite-color);
   font-size: 18px;
   line-height: 27px;
