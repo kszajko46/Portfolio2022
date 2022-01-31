@@ -102,12 +102,12 @@ body {
   }
 
   .aboutMe{
-     background: radial-gradient(
+    background: radial-gradient(
     circle at 10% 20%,
     rgb(246, 187, 187) 0%,
     rgb(249, 219, 217) 90%
   );
   text-align: center;
   color: var(--main-color);
-  padding: 160px 20px;
   }
+
