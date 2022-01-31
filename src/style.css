@@ -95,6 +95,20 @@ body {
   color: var(--popOf-color);
 }
 
+.text-box h3{
+  position: relative;
+  bottom: 250px;
+  text-align: right;
+  color:var(--secondary-color);
+  font-family: 'Dancing Script' , cursive;
+  font-size: 60px;
+  padding: 90px;
+}
+
+.albert{
+  opacity: 0.5;
+}
+
 .aboutMe {
   background: radial-gradient(
     circle at 10% 20%,
@@ -103,7 +117,19 @@ body {
   );
   text-align: center;
   color: var(--main-color);
+  padding: 30px;
+  border-radius: 4px;
 }
+
+.aboutMe h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+}
+.aboutMe img{
+  height: 890px;
+}
+ 
+
 
 @media (max-width: 900px) {
   .openingPara {
