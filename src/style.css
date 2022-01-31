@@ -62,7 +62,7 @@ body {
   margin: 40px;
 }
 
-.openingPara {
+.contentPara {
   text-align: center;
   margin: 50px 400px;
   margin-top: 150px;
@@ -117,13 +117,14 @@ body {
   );
   text-align: center;
   color: var(--main-color);
-  padding: 30px;
+  padding: 120px 60px;
   border-radius: 4px;
 }
 
 .aboutMe h2{
   font-family: 'Dancing Script', cursive;
-  font-size: 45px;
+  font-size: 70px;
+  text-align: left;
 }
 .aboutMe img{
   height: 890px;
