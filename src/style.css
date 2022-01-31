@@ -31,6 +31,7 @@ body {
   text-align: center;
   color: var(--main-color);
   padding: 160px 20px;
+  border: 2px solid;
 }
 
 .hero p {
@@ -42,7 +43,7 @@ body {
 .hero h1 {
   font-family: "Neonderthaw", cursive;
   line-height: 2;
-  font-size: 95px;
+  font-size: 150px;
   margin: 0;
   color: var(--offWhite-color);
 }
@@ -69,7 +70,11 @@ body {
   border: 5px ridge;
   border-radius: 2px;
   border-color: var(--offWhite-color);
-  background-color: var(--popOf-color);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(246, 187, 187) 0%,
+    rgb(249, 219, 217) 90%
+  );
   color: var(--main-color);
   font-weight: 500;
   padding: 20px;
