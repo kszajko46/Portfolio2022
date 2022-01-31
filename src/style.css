@@ -31,7 +31,6 @@ body {
   text-align: center;
   color: var(--main-color);
   padding: 160px 20px;
-  border: 2px solid;
 }
 
 .hero p {
@@ -101,4 +100,10 @@ body {
     margin: 0;
     margin-top: 20px;
   }
+}
+
+.headerPhoto {
+  width: 100%;
+  opacity: 0.5;
+  height: 250px;
 }
