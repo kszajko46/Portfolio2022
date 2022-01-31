@@ -105,5 +105,32 @@ body {
 .headerPhoto {
   width: 100%;
   opacity: 0.5;
-  height: 250px;
+  height: 200px;
+}
+
+.aboutMe {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(246, 187, 187) 0%,
+    rgb(249, 219, 217) 90%
+  );
+  text-align: center;
+  color: var(--main-color);
+  padding: 160px 20px;
+}
+
+.aboutMe h3 {
+  position: relative;
+  bottom: 400px;
+  color: var(--main-color);
+}
+
+.aboutMe h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.selfie {
+  height: 300px;
 }
