@@ -90,3 +90,10 @@ body {
 .footer a :hover {
   color: var(--popOf-color);
 }
+
+@media (max-width: 900px) {
+  .openingPara {
+    margin: 0;
+    margin-top: 20px;
+  }
+}
