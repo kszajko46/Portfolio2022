@@ -1,7 +1,7 @@
 :root {
   --main-color: #4d4e4f;
   --secondary-color: #ccced2;
-  --popOf-color: #d9b9b2;
+  --popOf-color: #f7bfbf;
   --accent-color: #dcc0aa;
   --offWhite-color: #f7f7f7;
   --main-font: "Poppins", sans-serif;
@@ -12,10 +12,22 @@ body {
   background-color: var(--main-color);
   font-family: var(--main-font);
   color: var(--offWhite-color);
+  border: 8px double;
+  border-radius: 2px;
+  border-color: var(--secondary-color);
+  margin: 20px;
+}
+
+.navbar-brand {
+  font-family: "Neonderthaw", cursive;
 }
 
 .hero {
-  background-color: var(--popOf-color);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(246, 187, 187) 0%,
+    rgb(249, 219, 217) 90%
+  );
   text-align: center;
   color: var(--main-color);
   padding: 160px 20px;
@@ -50,8 +62,31 @@ body {
   margin: 40px;
 }
 
-.openingLine {
+.openingPara {
   text-align: center;
-  margin: 35px;
-  padding: 150px;
+  margin: 50px 400px;
+  margin-top: 150px;
+  border: 5px ridge;
+  border-radius: 2px;
+  border-color: var(--offWhite-color);
+  background-color: var(--popOf-color);
+  color: var(--main-color);
+  font-weight: 500;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 200px;
+}
+
+.footer a {
+  color: var(--secondary-color);
+  font-size: 50px;
+}
+
+.footer a :hover {
+  color: var(--popOf-color);
 }
