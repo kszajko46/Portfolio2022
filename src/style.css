@@ -137,6 +137,10 @@ body {
   height: 500px;px ;
 }
  
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+}
 
 
 @media (max-width: 900px) {
