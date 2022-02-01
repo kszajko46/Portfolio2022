@@ -1,5 +1,5 @@
 :root {
-  --main-color: #4d4e4f;
+  --main-color: #1f1f1f;
   --secondary-color: #ccced2;
   --popOf-color: #f7bfbf;
   --offWhite-color: #f7f7f7;
@@ -115,9 +115,16 @@ body {
   font-size: 70px;
   text-align: left;
 }
+ 
+.aboutMe p{
+  font-size: 25px;
+}
 
-.selfie{
-  height: 1000px;
+.workContact{
+  border: 2px solid var(--main-color);
+  border-radius: 4px;
+  color:var(--main-color);
+  background-color: var(--secondary-color);
 }
 
 .weatherApp{
@@ -151,5 +158,15 @@ h2{
       font-size:45px;
     }
 
+    .text-box h3{
+      font-size: 30px;
+    }
+
+    .aboutMe h2{
+      font-size: 40px;
+    }
+    .aboutMe p{
+      font-size: 14px;
+    }
 
 
