@@ -27,6 +27,7 @@ body {
   text-align: center;
   color: var(--main-color);
   padding: 160px 20px;
+  margin-bottom: 0;
 }
 
 .hero p {
@@ -60,7 +61,7 @@ body {
 
 .contentPara {
   text-align: center;
-  margin: 50px 400px;
+  margin: 5px 300px;
   margin-top: 150px;
   border: 5px ridge;
   border-radius: 2px;
