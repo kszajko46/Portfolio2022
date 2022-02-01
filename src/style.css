@@ -2,10 +2,10 @@
   --main-color: #4d4e4f;
   --secondary-color: #ccced2;
   --popOf-color: #f7bfbf;
-  --accent-color: #dcc0aa;
+  
   --offWhite-color: #f7f7f7;
   --main-font: "Poppins", sans-serif;
-  --accent-font: "Merriweather", serif;
+  --accent-font: 'Dancing Script', cursive;
 }
 
 body {
@@ -100,7 +100,7 @@ body {
   bottom: 250px;
   text-align: right;
   color:var(--secondary-color);
-  font-family: 'Dancing Script' , cursive;
+  font-family:var(--accent-font);
   font-size: 60px;
   padding: 90px;
 }
@@ -122,7 +122,7 @@ body {
 }
 
 .aboutMe h2{
-  font-family: 'Dancing Script', cursive;
+  font-family:var(--accent-font);
   font-size: 70px;
   text-align: left;
 }
@@ -138,8 +138,13 @@ body {
 }
  
 h2{
-  font-family: 'Dancing Script', cursive;
+  font-family: var(--accent-font);
   font-size: 100px;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
 }
 
 
