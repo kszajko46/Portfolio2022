@@ -1,9 +1,10 @@
 :root {
   --main-color: #1f1f1f;
   --secondary-color: #ccced2;
-  --popOf-color: #f7bfbf;
+  --popOf-color: #e2a2a2;
   --offWhite-color: #f7f7f7;
-  --background-color: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  --background-color: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+  
   --main-font: "Poppins", sans-serif;
   --accent-font: 'Dancing Script', cursive;
 }
@@ -11,7 +12,7 @@
 body {
   background-color: var(--main-color);
   font-family: var(--main-font);
-  color: var(--offWhite-color);
+  color: var(--popOf-color);
   border: 8px double;
   border-radius: 2px;
   border-color: var(--secondary-color);
@@ -41,7 +42,7 @@ body {
   line-height: 2;
   font-size: 150px;
   margin: 0;
-  color: var(--offWhite-color);
+  color: var(--popOf-color);
 }
 
 .hero h3 {
