@@ -126,8 +126,15 @@ body {
   font-size: 70px;
   text-align: left;
 }
-.aboutMe img{
-  height: 890px;
+
+.selfie{
+  height: 1000px;
+}
+
+.weatherApp{
+  border-radius: 4px;
+  width: 500px;
+  height: 500px;px ;
 }
  
 
