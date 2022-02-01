@@ -137,7 +137,18 @@ h2{
 
 
 @media (max-width: 900px) {
-  .openingPara {
+  .contentPara {
+    padding: 50px;
     margin: 0;
     margin-top: 20px;
   }
+   .hero{
+     margin: 0 auto;
+   }
+  
+  .hero h1{
+      font-size:45px;
+    }
+
+
+
