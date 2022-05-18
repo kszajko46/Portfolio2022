@@ -39,7 +39,7 @@ text-align: center;
 }
 
 .hero h1 {
-  font-family: 'Source Code Pro', monospace;;
+  font-family:var(--main-font);
   line-height: 2;
   font-size: 600 px;
   font-weight: 700;
