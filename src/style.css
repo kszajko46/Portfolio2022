@@ -36,6 +36,7 @@ text-align: center;
   text-align: left;
   margin: 0;
   font-size: 40px;
+  font-family:var(--main-font);
 }
 
 .hero h1 {
@@ -50,6 +51,7 @@ text-align: center;
 .hero h3 {
   font-size: 20px;
   margin-bottom: 20px;
+  font-family:var(--main-font);
 }
 
 .btn-branding {
