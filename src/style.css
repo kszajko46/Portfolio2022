@@ -177,6 +177,36 @@ h2{
   color: black;
 }
 
+.contactPage {
+  background-image: url(/images/simpleLeaf.png);
+   background-color: var(--offWhite-color);
+  text-align: center;
+    color: var(--main-color);
+    padding: 160px 20px;
+    margin-bottom: 0;
+  }
+  
+  .contactPage p {
+    text-align: left;
+    margin: 0;
+    font-size: 40px;
+    font-family:var(--main-font);
+  }
+  
+  .contactPage h1 {
+    font-family:var(--main-font);
+    line-height: 2;
+    font-size: 600 px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--main-color);
+  }
+  
+  .contactPage h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family:var(--main-font);
+  }
 
 @media (max-width: 900px) {
   .contentPara {
