@@ -178,7 +178,7 @@ h2{
 }
 
 .contactPage {
-  background-image: url(/images/simpleLeaf.png);
+  background-image: url(/images/background.png);
    background-color: var(--offWhite-color);
   text-align: center;
     color: var(--main-color);
