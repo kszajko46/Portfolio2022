@@ -24,7 +24,7 @@ body {
 }
 
 .hero {
-background-image: url(/images/leaf.jpg);
+background-image: url(/images/simple.jpg);
  background-color: var(--offWhite-color);
 text-align: center;
   color: var(--main-color);
